@@ -1,13 +1,13 @@
-var Bitcore = require('@dashevo/dashcore-lib');
+var Bitcore = require('@trivechain/trivechaincore-lib');
 
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.dashevo.org';
-var mainnetPrefix = '/insight-api';
+var mainnetProvider = 'https://insight.trivechain.com';
+var mainnetPrefix = '/api';
 
-var testnetProvider = 'https://testnet-insight.dashevo.org';
-var testnetPrefix = '/insight-api';
+var testnetProvider = 'https://insight.trvc.dev';
+var testnetPrefix = '/api';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();

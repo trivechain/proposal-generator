@@ -1,7 +1,7 @@
 {
-  "name": "proposal-generator",
-  "version": "1.1.0",
-  "description": "",
+  "name": "@trivechain/proposal-generator",
+  "version": "1.0.0",
+  "description": "Trivechain Proposal Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashevo/proposal-generator.git"
+    "url": "git+https://github.com/trivechain/proposal-generator.git"
   },
-  "author": "",
+  "author": "dev@trivechain.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dashevo/proposal-generator/issues"
+    "url": "https://github.com/trivechain/proposal-generator/issues"
   },
-  "homepage": "https://github.com/dashevo/proposal-generator#readme",
+  "homepage": "https://github.com/trivechain/proposal-generator#readme",
   "devDependencies": {
-    "@dashevo/dashcore-lib": "^0.16.8",
+    "@trivechain/trivechaincore-lib": "github:trivechain/trivechaincore-lib#browser",
     "browserify": "^16.2.3",
     "eslint": "^5.13.0"
   }
